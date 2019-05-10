@@ -87,44 +87,8 @@ if __name__ == "__main__":
     func = func.get_func_list()
     print(find_ident(func)) 
     print()
-    print(part_set(test_set,empty_set,1))
+    
+    #for part 2 i am getting max recursion depth exceeded
+    #print(part_set(test_set,empty_set,1))
     
     
-"""
-    f1 = 'x*x + x - 12'
-    f2 = '(x+4)*(x-3)'
-    print(equal(f1,f2))
-    
-    f1 = 'sin(x)/cos(x)'
-    f2 = 'tan(x)'
-    print(equal(f1,f2))
-    
-    f1 = 'sin(x)*sin(x) + cos(x)*cos(x)'
-    f2 = '1'  
-    print(equal(f1,f2))
-    
-    f1 = '(x+1)*(x-1)'
-    f2 = 'x*x-1'  
-    print(equal(f1,f2))
-    
-    f1 = '(x+10)/10'
-    f2 = 'x'  
-    print(equal(f1,f2))
-    
-    print(prime(997))
-    print(prime(1008))
-    
-    s2='MONEY'
-    d = edit_distance('MINERS','MONEY')
-    print(d)
-    
-    S = [2,5,8,9,12,21,33]
-    
-    for i in range(100):
-        print('Goal =',i)
-        a,s = subsetsum(S,len(S)-1,i)
-        if a:
-            print('Solution:',s)
-        else:
-            print('There is no solution')
-"""
